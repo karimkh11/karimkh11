@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://res.cloudinary.com; style-src 'self';">
+    <meta name="description" content="Partagez vos expériences de vacances avec des photos et racontez vos aventures vécues. Découvrez les récits de voyageurs du monde entier.">
+    <title>Voyages et Aventures : Partagez vos Expériences</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header__content">
+            <a href="/index.html" aria-label="Accueil">
+                <img class="header_logo" src="/logo.png" alt="Company Logo">
+            </a>
+            <h1 class="header__title">Histoire & Voyages</h1>
+            <button id="dark-mode-toggle" aria-label="Basculer en mode sombre">Mode Sombre</button>
+        </div>
+        <nav aria-label="Navigation principale">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link" aria-label="Accueil">Accueil</a></li>
+                <li class="nav__item"><a href="#" class="nav__link" aria-label="Articles">Articles</a></li>
+                <li class="nav__item"><a href="#" class="nav__link" aria-label="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+            <form class="search-bar" action="#" method="get">
+                <label for="search-input" class="sr-only">Rechercher un article...</label>
+                <input type="text" id="search-input" class="search-bar__input" placeholder="Rechercher un article..." aria-label="Rechercher un article...">
+                <button type="submit" class="search-bar__button">Rechercher</button>
+            </form>
+
+        <section class="articles">
+            <h2 class="article_title title">Votre Expériences se trouvent ici</h2>
+
+            <article class="article">
+                <img src="https://res.cloudinary.com/dg2qhwbkt/image/upload/v1716424757/samples/landscapes/beach-boat.jpg" alt="Image Australie" class="article__image">
+                <h3 class="article__title">Australie</h3>
+                <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
+            </article>
+
+            <article class="article">
+                <img src="https://res.cloudinary.com/dg2qhwbkt/image/upload/v1716424752/samples/sheep.jpg" alt="Image Chili" class="article__image">
+                <h3 class="article__title">Chili</h3>
+                <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
+            </article>
+
+            <article class="article">
+                <img src="https://res.cloudinary.com/dg2qhwbkt/image/upload/v1716424753/samples/landscapes/girl-urban-view.jpg" alt="Image Nouvelle-Zélande" class="article__image">
+                <h3 class="article__title">Nouvelle-Zélande</h3>
+                <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
+            </article>
+
+            <article class="article">
+                <img src="https://res.cloudinary.com/dg2qhwbkt/image/upload/v1716424755/samples/people/boy-snow-hoodie.jpg" alt="Image Alaska" class="article__image">
+                <h3 class="article__title">Alaska</h3>
+                <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <nav class="footer__nav">
+            <ul class="footer__list">
+                <li class="footer__item"><a href="#" class="footer__link" aria-label="À propos">À propos</a></li>
+                <li class="footer__item"><a href="#" class="footer__link" aria-label="Contact">Contact</a></li>
+                <li class="footer__item"><a href="#" class="footer__link" aria-label="Mention légale">Mention légale</a></li>
+            </ul>
+        </nav>
+        <p class="footer__text">&copy; 2023 Voyages et Aventures. Tous droits réservés.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
